@@ -8,7 +8,3 @@ def sum_csv(nome_file):
       values.append(float(value))
   my_file.close()
   return sum(values)
-
-
-risultato = sum_csv('shampoo_sales.txt')
-print(f'il risultato è: {risultato}')
