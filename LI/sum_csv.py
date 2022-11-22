@@ -8,6 +8,6 @@ def sum_csv(nome_file):
       values.append(float(value))
     my_file.close()
     if (len(values) == 0):
-      return none
+      return None
     else:
       return sum(values)
