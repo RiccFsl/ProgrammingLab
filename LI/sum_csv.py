@@ -6,5 +6,8 @@ def sum_csv(nome_file):
     if element[0] != 'Date':
       value = element[1]
       values.append(float(value))
-  my_file.close()
-  return sum(values)
+    my_file.close()
+    if (len(values) == 0):
+      return none
+    else:
+      return sum(values)
