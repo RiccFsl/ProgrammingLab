@@ -17,8 +17,3 @@ class CSVFile():
         list.append([date, value])
     my_file.close()
     return list
-
-shampoo = CSVFile ('shampoo_sales.txt')
-print(shampoo)
-data = shampoo.get_data()
-print (data)
