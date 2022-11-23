@@ -15,5 +15,6 @@ class CSVFile():
         date = element[0]
         value = element[1]
         list.append([date, value])
+        list.strip('\n')
     my_file.close()
     return list
