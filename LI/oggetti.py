@@ -4,14 +4,14 @@ class CSVFile():
     self.name = name
 
   def __str__(self):
-    return(f'CsvFile: {self.name}')
+    return('CsvFile: {}'.format(self.name))
     
   def get_data(self):
     list = []
     my_file = open(self.name, 'r')
     for line in my_file:
       element = line.split(',')
-      if element[0] != 'Data':
+      if element[0] != 'Date':
         date = element[0]
         value = element[1]
         list.append([date, value])
