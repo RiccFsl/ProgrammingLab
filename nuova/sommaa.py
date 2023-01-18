@@ -7,4 +7,3 @@ def sum_csv(file_name):
             value = float(element[1])
             list.append(value)
     my_file.close()
-    
