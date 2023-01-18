@@ -5,4 +5,4 @@ def sum_csv(file_name):
         if (element[0] != 'Date'):
             value = float(element[1])
             list.append(value)
-    return list
+    return sum(list)
