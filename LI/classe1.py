@@ -10,5 +10,5 @@ class CSVFile:
 			element = line.split(",")
 			Data = element[0]
 			Value = element[1]
-			dati.append((Data, float(Value),))
+			dati.append((Data, Value))
 		return dati
