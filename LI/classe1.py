@@ -9,6 +9,6 @@ class CSVFile:
 		for line in self.my_file:
 			element = line.split(",")
 			Data = element[0]
-			Value = element[1].strip()
+			Value = element[1]
 			dati.append((Data, float(Value),))
 		return dati
